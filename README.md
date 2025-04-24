@@ -33,6 +33,15 @@ https://github.com/Simplon-hdf/cda-p5-netstream-sky-planets
 cd cda-p5-netstream-sky-planets
 ```
 
+## 🔍 Requêtes SQL
+### Les titres et dates de sortie des films du plus récent au plus ancien
+
+```SQL
+SELECT titre, annee_de_sortie
+FROM film
+ORDER BY DESC;
+```
+
 
 ## 📚 Documentation
 
